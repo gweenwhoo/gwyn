@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -21,12 +22,10 @@
   --box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
     rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
     rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
-  --background: linear-gradient(
-    90deg,
-    rgba(254, 97, 157, 1) 0%,
-    rgba(196, 106, 242, 1) 44%,
-    rgba(225, 226, 255, 1) 100%
-  );
+  --background: linear-gradient(90deg,
+      rgba(254, 97, 157, 1) 0%,
+      rgba(196, 106, 242, 1) 44%,
+      rgba(225, 226, 255, 1) 100%);
 }
 
 ::selection {
@@ -103,6 +102,7 @@ header {
   z-index: 10001;
   display: none;
 }
+
 /* home */
 .home {
   display: flex;
@@ -141,19 +141,19 @@ header {
   font-size: 4.5rem;
   color: var(--primary);
 }
+
 .home-content q {
   font-size: 1rem;
 }
+
 /* eND OF HOME */
 
 /* about */
 .about-section {
-  background: linear-gradient(
-    90deg,
-    rgba(254, 97, 157, 1) 0%,
-    rgba(196, 106, 242, 1) 44%,
-    rgba(225, 226, 255, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(254, 97, 157, 1) 0%,
+      rgba(196, 106, 242, 1) 44%,
+      rgba(225, 226, 255, 1) 100%);
   display: flex;
   flex-direction: row;
   gap: 4rem;
@@ -167,6 +167,7 @@ header {
   margin-left: 3rem;
   max-width: 100vh;
 }
+
 .about-section .about-left img {
   border-radius: 50%;
   width: 480px;
@@ -177,14 +178,17 @@ header {
   min-width: 10vw;
   width: auto;
 }
+
 .about-section .about-right .about_context {
   white-space: normal;
 }
+
 .about-section .about-right h1 {
   color: var(--primary);
   font-size: 37px;
   margin-bottom: 5px;
 }
+
 .about-right p {
   color: #444;
   line-height: 26px;
@@ -214,6 +218,7 @@ header {
   margin-bottom: 10px;
   color: var(--primary);
 }
+
 .expertise .expertise-logo {
   font-size: 19px;
   color: var(--secondary);
@@ -223,6 +228,7 @@ header {
   margin-top: 2rem;
   color: var(--primary);
 }
+
 /* my works */
 
 .my_works_container {
@@ -235,6 +241,7 @@ header {
   text-align: center;
   color: var(--primary);
 }
+
 .my_work_header .text_header {
   font-size: 37px;
   font-weight: 600;
@@ -266,6 +273,7 @@ header {
     rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
     rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
+
 .image-container h1 {
   margin-top: 1rem;
   font-size: 2rem;
@@ -361,6 +369,7 @@ header {
   transition: 0s;
   transform: translate(0, 5%);
 }
+
 /* End Of My Works */
 
 /* Reviews Style */
@@ -371,11 +380,14 @@ header {
   align-items: center;
   flex-direction: column;
   width: 100%;
+  background: var(--background);
+
 }
 
 #testimonials .reviews_header {
   padding: 5rem;
 }
+
 #testimonials .reviews_header h4 {
   font-size: 28px;
   color: var(--primary);
@@ -390,6 +402,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .testimonial-heading h1 {
   font-size: 2.2rem;
   font-weight: 500;
@@ -397,6 +410,7 @@ header {
   color: #ffffff;
   padding: 10px 20px;
 }
+
 .testimonial-heading span {
   font-size: 1.3rem;
   color: #252525;
@@ -404,21 +418,25 @@ header {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
 .testimonial-box-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
+  background: var(--background) !important;
 }
+
 .testimonial-box {
   width: 500px;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
-  background-color: var(--primary);
+  background-color: var(--secondary);
   padding: 20px;
   margin: 15px;
   cursor: pointer;
 }
+
 .profile-img {
   width: 50px;
   height: 50px;
@@ -426,42 +444,51 @@ header {
   overflow: hidden;
   margin-right: 10px;
 }
+
 .profile-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
+
 .profile {
   display: flex;
   align-items: center;
 }
+
 .name-user {
   display: flex;
   flex-direction: column;
 }
+
 .name-user strong {
   color: var(--text-color);
   font-size: 1.1rem;
   letter-spacing: 0.5px;
 }
+
 .name-user span {
   color: #979797;
   font-size: 0.8rem;
 }
+
 .reviews {
   color: #f9d71c;
 }
+
 .box-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
+
 .client-comment p {
   font-size: 0.9rem;
-  color: var(--secondary);
+  color: var(--text-color);
 }
+
 .testimonial-box:hover {
   transform: translateY(-10px);
   transition: all ease 0.3s;
@@ -479,14 +506,17 @@ header {
   justify-content: center;
   flex-direction: column;
 }
+
 .reviews_container .post {
   display: none;
 }
+
 .reviews_container .text {
   font-size: 25px;
   color: #666;
   font-weight: 500;
 }
+
 .reviews_container .edit {
   position: absolute;
   right: 10px;
@@ -496,12 +526,15 @@ header {
   font-weight: 500;
   cursor: pointer;
 }
+
 .reviews_container .edit:hover {
   text-decoration: underline;
 }
+
 .reviews input[type="radio"] {
   display: none;
 }
+
 .reviews label {
   font-size: 40px;
   color: #444;
@@ -509,23 +542,29 @@ header {
   float: right;
   transition: all 0.2s ease;
 }
-input:not(:checked) ~ label:hover,
-input:not(:checked) ~ label:hover ~ label {
+
+input:not(:checked)~label:hover,
+input:not(:checked)~label:hover~label {
   color: #fd4;
 }
-input:checked ~ label {
+
+input:checked~label {
   color: #fd4;
 }
-input#rate-5:checked ~ label {
+
+input#rate-5:checked~label {
   color: #fe7;
   text-shadow: 0 0 20px #952;
 }
+
 .reviews_container form {
   display: none;
 }
-input:checked ~ form {
+
+input:checked~form {
   display: block;
 }
+
 form header {
   width: 100%;
   font-size: 25px;
@@ -535,11 +574,13 @@ form header {
   text-align: center;
   transition: all 0.2s ease;
 }
+
 form .textarea {
   height: 100px;
   width: 100%;
   overflow: hidden;
 }
+
 form .textarea textarea {
   height: 100%;
   width: 100%;
@@ -551,15 +592,18 @@ form .textarea textarea {
   font-size: 17px;
   resize: none;
 }
+
 .textarea textarea:focus {
   border-color: #444;
 }
+
 /* name */
 form .name {
   height: 100px;
   width: 100%;
   overflow: hidden;
 }
+
 form .name textarea {
   height: 60%;
   width: 100%;
@@ -571,14 +615,17 @@ form .name textarea {
   font-size: 17px;
   resize: none;
 }
+
 .name textarea:focus {
   border-color: #444;
 }
+
 form .btn {
   height: 45px;
   width: 100%;
   margin: 15px 0;
 }
+
 form .btn button {
   height: 100%;
   width: 100%;
@@ -592,6 +639,7 @@ form .btn button {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 form .btn button:hover {
   background: #1b1b1b;
 }
@@ -605,12 +653,7 @@ form .btn button:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(
-    90deg,
-    rgba(254, 97, 157, 1) 0%,
-    rgba(196, 106, 242, 1) 44%,
-    rgba(225, 226, 255, 1) 100%
-  );
+  /* background: var(); */
 }
 
 .contact .context {
@@ -624,11 +667,13 @@ form .btn button:hover {
   color: var(--primary);
   margin-bottom: 3rem;
 }
+
 .contact .context p {
   font-size: 15px;
-  color: var(--secondary);
+  color: var(--text-color);
   font-weight: 500;
 }
+
 .content_container {
   width: 100%;
   display: flex;
@@ -636,18 +681,19 @@ form .btn button:hover {
   align-items: center;
   margin-top: 30px;
 }
+
 .content_container .contactInfo {
   width: 50%;
   display: flex;
   flex-direction: column;
 }
+
 .content_container .contactInfo .box {
   position: relative;
   padding: 20px 0;
   display: flex;
   gap: 20px;
   align-items: center;
-  justify-content: center;
 }
 
 .content_container .contactInfo .box .icon {
@@ -671,10 +717,11 @@ form .btn button:hover {
 }
 
 .text {
-  color: var(--secondary);
+  color: var(--text-color);
 }
+
 .text a {
-  color: var(--secondary);
+  color: var(--text-color);
   text-decoration: underline;
 }
 
