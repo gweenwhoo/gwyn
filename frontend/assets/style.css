@@ -92,7 +92,10 @@ header {
 }
 
 .navbar a.active {
-  color: var(--green);
+  text-decoration: none;
+  border-bottom: 1px solid;
+  letter-spacing: 2px; 
+  padding-bottom: 2px; 
 }
 
 #menu-icon {
